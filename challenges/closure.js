@@ -14,7 +14,7 @@ function myFunction() {
     };
     nestedFunction();
 }
-myFunction();
+// myFunction();
 
 // Explanation: 
 /* because nestedFunction is inside the same closure  as the definition of internal. It could also reference external if it wanted to because it can also look outward for the value of variables, if there were another function outside of myFunctions closure, neither that function, nor it's nested function could access the internal variable, but they could also both access external */
